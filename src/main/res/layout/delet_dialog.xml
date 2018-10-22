@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:padding="20dp"
+                android:background="@drawable/book_dialog"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/delete_dialogt1"
+        android:gravity="left|top"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="“亲爱的，基围为您服务”"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="删除此项"
+        android:padding="10dp"
+        android:id="@+id/name_ok"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/delete_dialogt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="清空所有"
+        android:padding="10dp"
+        android:id="@+id/name_ok_all"
+        android:layout_toLeftOf="@id/name_ok"
+        android:layout_below="@id/delete_dialogt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:padding="10dp"
+        android:text="取消"
+        android:id="@+id/delete_cancel"
+        android:layout_toLeftOf="@id/name_ok_all"
+        android:layout_below="@id/delete_dialogt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

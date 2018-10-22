@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#025b80</color>
+    <color name="colorPrimaryDark">#08506e</color>
+    <color name="colorAccent">#a5100d</color>
+    <color name="buttonbar_negative">#09668d</color>
+    <color name="buttonbar_active">#8e0503</color>
+    <color name="background">#87adbd</color>
+    <color name="cardviewbg">#d6d6d6</color>
+    <color name="setting_textclor">#844696</color>
+
+
+
+</resources>

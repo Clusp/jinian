@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/activity_jinian"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <EditText
+       android:gravity="start"
+       android:layout_weight="1"
+       android:background="#00000000"
+       android:id="@+id/container_edit"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </EditText>
+   <android.support.design.widget.FloatingActionButton
+       android:id="@+id/edit_fab"
+       android:layout_gravity="bottom|right"
+       android:src="@drawable/save"
+       app:fabSize="mini"
+       app:elevation="0dp"
+       app:backgroundTint="#00000000"
+       app:rippleColor="#ff039993"
+       app:borderWidth="0dp"
+       android:layout_margin="16dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+</android.support.design.widget.CoordinatorLayout>

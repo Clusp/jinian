@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:padding="20dp"
+                android:background="@drawable/book_dialog"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/name_diary"
+        android:gravity="left|top"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="“亲爱的，基围为日记赋名”"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/create_name"
+        android:layout_below="@id/name_diary"
+        android:maxLines="1"
+        android:maxLength="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="保存"
+        android:padding="10dp"
+        android:id="@+id/name_ok"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/create_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:padding="10dp"
+        android:text="取消"
+        android:id="@+id/name_cancel"
+        android:layout_toLeftOf="@id/name_ok"
+        android:layout_below="@id/create_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

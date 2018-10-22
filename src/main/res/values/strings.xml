@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">纪年</string>
+    <string name="app_help">备忘：\n备忘界面点击右上角的图标即可添加新的备忘。不添加内容或者不点击编辑界面右下角的保存图标，将添加一个空白备忘。长按界面备忘事迹将会弹出删除对话框。
+    \n财务：\n财务界面右点击上角的图标可以添加财务事迹。长按界面财务事迹可以弹出删除对话框。
+    \n日记：\n日记界面点击右上角的图标可以为日记赋名。点击书籍进入日记列项界面，点击右下角图标进入日记编辑界面。不添加内容或者不点击编辑界面右下角的保存图标，将添加一个空白日记项。
+    长按日记列项弹出删除对话框。</string>
+    <string name="app_share">如果您觉得本软件对于您有所帮助，欢迎分享。这将是对我的莫大鼓励。</string>
+    <string name="app_donate">给作者加鸡腿 ？</string>
+    <string name="declaraction">本应用为免费无广告应用，如若发现应用情况不符，请在酷安等应用商店下载。\n请勿以任何方式对本应用进行恶意二次篡改，如若构成侵权行为，必将追究法律责任。</string>
+    <string name="app_thanks">开源项目：\nBottomNavigation\n地址：https://github.com/Ashok-Varma/BottomNavigation\nCircleImageView\n地址：https://github.com/hdodenhof/CircleImageView
+    \n图片及图标：\n阿里巴巴矢量图库、互联网。</string>
+</resources>

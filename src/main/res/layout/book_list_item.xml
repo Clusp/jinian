@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    app:cardMaxElevation="10dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image_item_left"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:src="@drawable/seastar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/image_item_left"
+        android:id="@+id/book_item_text"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/book_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
